@@ -31,7 +31,7 @@
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
       <dc:creator>CCCP</dc:creator>
-      <dc:date>2016-02-09T19:44:12Z</dc:date>
+      <dc:date>2016-02-09T20:20:35Z</dc:date>
       <meta:user-defined meta:name="dc:publisher" meta:value-type="string">Queen's University</meta:user-defined>
       <meta:user-defined meta:name="gsf:links-dirty" meta:value-type="boolean">f</meta:user-defined>
       <meta:user-defined meta:name="gsf:scale" meta:value-type="boolean">f</meta:user-defined>
@@ -45,8 +45,8 @@
   <gnm:DateConvention>1904</gnm:DateConvention>
   <gnm:Calculation ManualRecalc="0" EnableIteration="1" MaxIterations="100" IterationTolerance="0.001" gnm:DateConvention="Apple:1904" FloatRadix="2" FloatDigits="53"/>
   <gnm:SheetNameIndex>
-    <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Sheet1</gnm:SheetName>
-    <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Nagl 1976</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Certain</gnm:SheetName>
+    <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Uncertain</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Kochjarova et al. 2006</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Dolezel et al. 2007</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Zotschke et al. 2007</gnm:SheetName>
@@ -60,7 +60,7 @@
   <gnm:Geometry Width="1280" Height="814"/>
   <gnm:Sheets>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
-      <gnm:Name>Sheet1</gnm:Name>
+      <gnm:Name>Certain</gnm:Name>
       <gnm:MaxCol>9</gnm:MaxCol>
       <gnm:MaxRow>96</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
@@ -72,7 +72,7 @@
         </gnm:Name>
         <gnm:Name>
           <gnm:name>Sheet_Title</gnm:name>
-          <gnm:value>&quot;Sheet1&quot;</gnm:value>
+          <gnm:value>&quot;Certain&quot;</gnm:value>
           <gnm:position>A1</gnm:position>
         </gnm:Name>
       </gnm:Names>
@@ -195,8 +195,8 @@
       <gnm:Rows DefaultSizePts="12.75">
         <gnm:RowInfo No="0" Unit="12.75" Count="97"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="1" CursorRow="92">
-        <gnm:Selection startCol="1" startRow="92" endCol="1" endRow="92"/>
+      <gnm:Selections CursorCol="8" CursorRow="0">
+        <gnm:Selection startCol="8" startRow="0" endCol="8" endRow="0"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Reference</gnm:Cell>
@@ -666,7 +666,7 @@
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
     </gnm:Sheet>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
-      <gnm:Name>Nagl 1976</gnm:Name>
+      <gnm:Name>Uncertain</gnm:Name>
       <gnm:MaxCol>16383</gnm:MaxCol>
       <gnm:MaxRow>14</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
@@ -678,7 +678,7 @@
         </gnm:Name>
         <gnm:Name>
           <gnm:name>Sheet_Title</gnm:name>
-          <gnm:value>&quot;Nagl 1976&quot;</gnm:value>
+          <gnm:value>&quot;Uncertain&quot;</gnm:value>
           <gnm:position>A1</gnm:position>
         </gnm:Name>
       </gnm:Names>
@@ -708,193 +708,258 @@
         <gnm:paper>na_letter</gnm:paper>
       </gnm:PrintInformation>
       <gnm:Styles>
-        <gnm:StyleRegion startCol="0" startRow="0" endCol="0" endRow="15">
+        <gnm:StyleRegion startCol="0" startRow="0" endCol="1" endRow="1048574">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="8" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="0" startRow="1048575" endCol="1" endRow="1048575">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="8" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="2" startRow="0" endCol="2" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="16" endCol="7" endRow="255">
+        <gnm:StyleRegion startCol="2" startRow="1048575" endCol="16383" endRow="1048575">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="0" endCol="4" endRow="0">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="3" startRow="1" endCol="4" endRow="5">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="256" endCol="63" endRow="4095">
+        <gnm:StyleRegion startCol="3" startRow="6" endCol="5" endRow="13">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="4096" endCol="511" endRow="65535">
+        <gnm:StyleRegion startCol="3" startRow="14" endCol="5" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="0" startRow="65536" endCol="4095" endRow="1048575">
+        <gnm:StyleRegion startCol="5" startRow="0" endCol="5" endRow="5">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="0" endCol="1" endRow="5">
+        <gnm:StyleRegion startCol="6" startRow="0" endCol="127" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="6" endCol="1" endRow="6">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:0" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="7" endCol="1" endRow="7">
+        <gnm:StyleRegion startCol="128" startRow="0" endCol="519" endRow="1048319">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="8" endCol="1" endRow="8">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:0" PatternColor="0:0:0" Format="mmm-yy">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="9" endCol="1" endRow="9">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:0" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="10" endCol="1" endRow="15">
+        <gnm:StyleRegion startCol="128" startRow="1048320" endCol="519" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="2" startRow="0" endCol="2" endRow="11">
+        <gnm:StyleRegion startCol="520" startRow="0" endCol="575" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="2" startRow="12" endCol="2" endRow="14">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:0" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="2" startRow="15" endCol="2" endRow="15">
+        <gnm:StyleRegion startCol="576" startRow="0" endCol="639" endRow="4095">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="3" startRow="0" endCol="3" endRow="10">
+        <gnm:StyleRegion startCol="576" startRow="4096" endCol="639" endRow="1048319">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="3" startRow="11" endCol="3" endRow="11">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="1" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:0" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="3" startRow="12" endCol="3" endRow="15">
+        <gnm:StyleRegion startCol="576" startRow="1048320" endCol="16383" endRow="1048574">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="4" startRow="0" endCol="7" endRow="15">
+        <gnm:StyleRegion startCol="640" startRow="0" endCol="1023" endRow="1048319">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="0" endCol="63" endRow="255">
+        <gnm:StyleRegion startCol="1024" startRow="0" endCol="1087" endRow="1044479">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="64" startRow="0" endCol="511" endRow="4095">
+        <gnm:StyleRegion startCol="1024" startRow="1044480" endCol="1087" endRow="1048319">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="512" startRow="0" endCol="4095" endRow="65535">
+        <gnm:StyleRegion startCol="1088" startRow="0" endCol="1535" endRow="1048319">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="4096" startRow="0" endCol="16383" endRow="1048575">
+        <gnm:StyleRegion startCol="1536" startRow="0" endCol="4159" endRow="1044479">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="1536" startRow="1044480" endCol="4159" endRow="1048319">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4160" startRow="0" endCol="4607" endRow="1048319">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4608" startRow="0" endCol="5119" endRow="65535">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4608" startRow="65536" endCol="5119" endRow="1044479">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="4608" startRow="1044480" endCol="16383" endRow="1048319">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="5120" startRow="0" endCol="8191" endRow="1044479">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="8192" startRow="0" endCol="16383" endRow="983039">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="8192" startRow="983040" endCol="16383" endRow="1044479">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
       </gnm:Styles>
       <gnm:Cols DefaultSizePts="48">
-        <gnm:ColInfo No="0" Unit="100.4"/>
-        <gnm:ColInfo No="1" Unit="56.44"/>
-        <gnm:ColInfo No="2" Unit="96.47"/>
-        <gnm:ColInfo No="3" Unit="48.57"/>
-        <gnm:ColInfo No="4" Unit="47.25" Count="16380"/>
+        <gnm:ColInfo No="0" Unit="51.75"/>
+        <gnm:ColInfo No="1" Unit="145.5"/>
+        <gnm:ColInfo No="2" Unit="111"/>
+        <gnm:ColInfo No="3" Unit="63"/>
+        <gnm:ColInfo No="4" Unit="67.5"/>
+        <gnm:ColInfo No="5" Unit="54"/>
+        <gnm:ColInfo No="6" Unit="47.25" Count="16378"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15">
-        <gnm:RowInfo No="0" Unit="15" Count="15"/>
+        <gnm:RowInfo No="0" Unit="15" Count="14"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="2" CursorRow="12">
-        <gnm:Selection startCol="2" startRow="12" endCol="2" endRow="14"/>
+      <gnm:Selections CursorCol="1" CursorRow="19">
+        <gnm:Selection startCol="1" startRow="19" endCol="1" endRow="19"/>
       </gnm:Selections>
       <gnm:Cells>
-        <gnm:Cell Row="0" Col="0" ValueType="60">Species</gnm:Cell>
-        <gnm:Cell Row="0" Col="1" ValueType="60">DNA content</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">Maximum ploidy level</gnm:Cell>
-        <gnm:Cell Row="0" Col="3" ValueType="60">Endo (Y/N)</gnm:Cell>
-        <gnm:Cell Row="1" Col="0" ValueType="60">Capsella bursa-pastoris</gnm:Cell>
-        <gnm:Cell Row="1" Col="1" ValueType="40">1.7</gnm:Cell>
-        <gnm:Cell Row="1" Col="2" ValueType="40">1024</gnm:Cell>
-        <gnm:Cell Row="1" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="2" Col="0" ValueType="60">Cucurbita pepo</gnm:Cell>
-        <gnm:Cell Row="2" Col="1" ValueType="40">2.6000000000000001</gnm:Cell>
-        <gnm:Cell Row="2" Col="2" ValueType="40">384</gnm:Cell>
-        <gnm:Cell Row="2" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="3" Col="0" ValueType="60">Phaseolus coccineus</gnm:Cell>
-        <gnm:Cell Row="3" Col="1" ValueType="40">2.7000000000000002</gnm:Cell>
-        <gnm:Cell Row="3" Col="2" ValueType="40">8192</gnm:Cell>
-        <gnm:Cell Row="3" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="4" Col="0" ValueType="60">Phaseolus vulgaris</gnm:Cell>
-        <gnm:Cell Row="4" Col="1" ValueType="40">2.7000000000000002</gnm:Cell>
-        <gnm:Cell Row="4" Col="2" ValueType="40">2048</gnm:Cell>
-        <gnm:Cell Row="4" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="5" Col="0" ValueType="60">Tropaeolum majus</gnm:Cell>
-        <gnm:Cell Row="5" Col="1" ValueType="40">2.7000000000000002</gnm:Cell>
-        <gnm:Cell Row="5" Col="2" ValueType="40">2048</gnm:Cell>
-        <gnm:Cell Row="5" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="6" Col="0" ValueType="60">Helianthus annuus</gnm:Cell>
-        <gnm:Cell Row="6" Col="1" ValueType="60">6.1--9.99</gnm:Cell>
-        <gnm:Cell Row="6" Col="2" ValueType="40">16</gnm:Cell>
-        <gnm:Cell Row="6" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="7" Col="0" ValueType="60">Hordeum vulgare</gnm:Cell>
-        <gnm:Cell Row="7" Col="1" ValueType="40">13.4</gnm:Cell>
-        <gnm:Cell Row="7" Col="2" ValueType="40">256</gnm:Cell>
-        <gnm:Cell Row="7" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="8" Col="0" ValueType="60">Lathyrus ssp.</gnm:Cell>
-        <gnm:Cell Row="8" Col="1" ValueType="60">9--20</gnm:Cell>
-        <gnm:Cell Row="8" Col="2" ValueType="40">64</gnm:Cell>
-        <gnm:Cell Row="8" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="9" Col="0" ValueType="60">Vicia faba</gnm:Cell>
-        <gnm:Cell Row="9" Col="1" ValueType="60">23.9--28.7</gnm:Cell>
-        <gnm:Cell Row="9" Col="2" ValueType="40">16</gnm:Cell>
-        <gnm:Cell Row="9" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="10" Col="0" ValueType="60">Allium cepa</gnm:Cell>
-        <gnm:Cell Row="10" Col="1" ValueType="40">35.5</gnm:Cell>
-        <gnm:Cell Row="10" Col="2" ValueType="40">32</gnm:Cell>
-        <gnm:Cell Row="10" Col="3" ValueType="60">Y</gnm:Cell>
-        <gnm:Cell Row="11" Col="0" ValueType="60">Tradescantia virginiana</gnm:Cell>
-        <gnm:Cell Row="11" Col="1" ValueType="40">54</gnm:Cell>
-        <gnm:Cell Row="11" Col="2" ValueType="40">8</gnm:Cell>
-        <gnm:Cell Row="11" Col="3" ValueType="60">N</gnm:Cell>
-        <gnm:Cell Row="12" Col="0" ValueType="60">Pinus sylvestris</gnm:Cell>
-        <gnm:Cell Row="12" Col="1" ValueType="40">93.799999999999997</gnm:Cell>
-        <gnm:Cell Row="12" Col="2" ValueType="40">2</gnm:Cell>
-        <gnm:Cell Row="12" Col="3" ValueType="60">N</gnm:Cell>
-        <gnm:Cell Row="13" Col="0" ValueType="60">Picea alba</gnm:Cell>
-        <gnm:Cell Row="13" Col="1" ValueType="40">100</gnm:Cell>
-        <gnm:Cell Row="13" Col="2" ValueType="40">2</gnm:Cell>
-        <gnm:Cell Row="13" Col="3" ValueType="60">N</gnm:Cell>
-        <gnm:Cell Row="14" Col="0" ValueType="60">Pinus resinosa</gnm:Cell>
-        <gnm:Cell Row="14" Col="1" ValueType="40">138</gnm:Cell>
-        <gnm:Cell Row="14" Col="2" ValueType="40">2</gnm:Cell>
-        <gnm:Cell Row="14" Col="3" ValueType="60">N</gnm:Cell>
+        <gnm:Cell Row="0" Col="0" ValueType="60">Reference</gnm:Cell>
+        <gnm:Cell Row="0" Col="1" ValueType="60">Problem with reference</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Species</gnm:Cell>
+        <gnm:Cell Row="0" Col="3" ValueType="60">C value (pg/2C)</gnm:Cell>
+        <gnm:Cell Row="0" Col="4" ValueType="60">Max leaf ploidy</gnm:Cell>
+        <gnm:Cell Row="0" Col="5" ValueType="60">Endo (Y/N)</gnm:Cell>
+        <gnm:Cell Row="0" Col="6" ValueType="60">Notes</gnm:Cell>
+        <gnm:Cell Row="1" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="1" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="1" Col="2" ValueType="60">Capsella bursa-pastoris</gnm:Cell>
+        <gnm:Cell Row="1" Col="3" ValueType="40">1.7</gnm:Cell>
+        <gnm:Cell Row="1" Col="4" ValueType="40">1024</gnm:Cell>
+        <gnm:Cell Row="1" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="2" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="2" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="2" Col="2" ValueType="60">Cucurbita pepo</gnm:Cell>
+        <gnm:Cell Row="2" Col="3" ValueType="40">2.6000000000000001</gnm:Cell>
+        <gnm:Cell Row="2" Col="4" ValueType="40">384</gnm:Cell>
+        <gnm:Cell Row="2" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="3" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="3" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="3" Col="2" ValueType="60">Phaseolus coccineus</gnm:Cell>
+        <gnm:Cell Row="3" Col="3" ValueType="40">2.7000000000000002</gnm:Cell>
+        <gnm:Cell Row="3" Col="4" ValueType="40">8192</gnm:Cell>
+        <gnm:Cell Row="3" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="4" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="4" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="4" Col="2" ValueType="60">Phaseolus vulgaris</gnm:Cell>
+        <gnm:Cell Row="4" Col="3" ValueType="40">2.7000000000000002</gnm:Cell>
+        <gnm:Cell Row="4" Col="4" ValueType="40">2048</gnm:Cell>
+        <gnm:Cell Row="4" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="5" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="5" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="5" Col="2" ValueType="60">Tropaeolum majus</gnm:Cell>
+        <gnm:Cell Row="5" Col="3" ValueType="40">2.7000000000000002</gnm:Cell>
+        <gnm:Cell Row="5" Col="4" ValueType="40">2048</gnm:Cell>
+        <gnm:Cell Row="5" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="6" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="6" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="6" Col="2" ValueType="60">Helianthus annuus</gnm:Cell>
+        <gnm:Cell Row="6" Col="3" ValueType="40">4.8499999999999996</gnm:Cell>
+        <gnm:Cell Row="6" Col="4" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="6" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="6" Col="6" ValueType="60">C value extracted from Kew</gnm:Cell>
+        <gnm:Cell Row="7" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="7" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="7" Col="2" ValueType="60">Hordeum vulgare</gnm:Cell>
+        <gnm:Cell Row="7" Col="3" ValueType="40">13.4</gnm:Cell>
+        <gnm:Cell Row="7" Col="4" ValueType="40">256</gnm:Cell>
+        <gnm:Cell Row="7" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="8" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="8" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="8" Col="2" ValueType="60">Vicia faba</gnm:Cell>
+        <gnm:Cell Row="8" Col="3" ValueType="40">26.649999999999999</gnm:Cell>
+        <gnm:Cell Row="8" Col="4" ValueType="40">16</gnm:Cell>
+        <gnm:Cell Row="8" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="8" Col="6" ValueType="60">C value extracted from Kew</gnm:Cell>
+        <gnm:Cell Row="9" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="9" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="9" Col="2" ValueType="60">Allium cepa</gnm:Cell>
+        <gnm:Cell Row="9" Col="3" ValueType="40">35.5</gnm:Cell>
+        <gnm:Cell Row="9" Col="4" ValueType="40">32</gnm:Cell>
+        <gnm:Cell Row="9" Col="5" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="10" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="10" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="10" Col="2" ValueType="60">Tradescantia virginiana</gnm:Cell>
+        <gnm:Cell Row="10" Col="3" ValueType="40">54</gnm:Cell>
+        <gnm:Cell Row="10" Col="4" ValueType="40">8</gnm:Cell>
+        <gnm:Cell Row="11" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="11" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="11" Col="2" ValueType="60">Pinus sylvestris</gnm:Cell>
+        <gnm:Cell Row="11" Col="3" ValueType="40">93.799999999999997</gnm:Cell>
+        <gnm:Cell Row="11" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="11" Col="5" ValueType="60">N</gnm:Cell>
+        <gnm:Cell Row="12" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="12" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="12" Col="2" ValueType="60">Picea alba</gnm:Cell>
+        <gnm:Cell Row="12" Col="3" ValueType="40">100</gnm:Cell>
+        <gnm:Cell Row="12" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="12" Col="5" ValueType="60">N</gnm:Cell>
+        <gnm:Cell Row="13" Col="0" ValueType="60">Nagl_1976</gnm:Cell>
+        <gnm:Cell Row="13" Col="1" ValueType="60">Organ of endopolyploidy is not reported.</gnm:Cell>
+        <gnm:Cell Row="13" Col="2" ValueType="60">Pinus resinosa</gnm:Cell>
+        <gnm:Cell Row="13" Col="3" ValueType="40">138</gnm:Cell>
+        <gnm:Cell Row="13" Col="4" ValueType="40">2</gnm:Cell>
+        <gnm:Cell Row="13" Col="5" ValueType="60">N</gnm:Cell>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="A1"/>
+      <gnm:SheetLayout TopLeft="A2">
+        <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="A2"/>
+      </gnm:SheetLayout>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
     </gnm:Sheet>
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
@@ -949,7 +1014,7 @@
       <gnm:Cols DefaultSizePts="48">
         <gnm:ColInfo No="0" Unit="89.91"/>
         <gnm:ColInfo No="1" Unit="39.75"/>
-        <gnm:ColInfo No="2" Unit="53.16"/>
+        <gnm:ColInfo No="2" Unit="59.25"/>
         <gnm:ColInfo No="3" Unit="96" HardSize="1"/>
         <gnm:ColInfo No="4" Unit="68.91"/>
         <gnm:ColInfo No="5" Unit="64.32"/>
@@ -1131,15 +1196,15 @@
         </gnm:StyleRegion>
       </gnm:Styles>
       <gnm:Cols DefaultSizePts="48">
-        <gnm:ColInfo No="0" Unit="129.3"/>
+        <gnm:ColInfo No="0" Unit="143.3"/>
         <gnm:ColInfo No="1" Unit="175.9"/>
         <gnm:ColInfo No="2" Unit="47.25" Count="16382"/>
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="15">
         <gnm:RowInfo No="0" Unit="15" Count="9"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="9">
-        <gnm:Selection startCol="0" startRow="9" endCol="0" endRow="9"/>
+      <gnm:Selections CursorCol="0" CursorRow="1">
+        <gnm:Selection startCol="0" startRow="1" endCol="0" endRow="1"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Species</gnm:Cell>
