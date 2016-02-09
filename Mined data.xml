@@ -31,7 +31,7 @@
   <office:document-meta xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:ooo="http://openoffice.org/2004/office" office:version="1.2">
     <office:meta>
       <dc:creator>CCCP</dc:creator>
-      <dc:date>2016-02-09T21:30:12Z</dc:date>
+      <dc:date>2016-02-09T21:40:01Z</dc:date>
       <meta:user-defined meta:name="dc:publisher" meta:value-type="string">Queen's University</meta:user-defined>
       <meta:user-defined meta:name="gsf:links-dirty" meta:value-type="boolean">f</meta:user-defined>
       <meta:user-defined meta:name="gsf:scale" meta:value-type="boolean">f</meta:user-defined>
@@ -48,7 +48,6 @@
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Certain</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Uncertain</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Kochjarova et al. 2006</gnm:SheetName>
-    <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Dolezel et al. 2007</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Castro et al. 2007</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Lukaszewska and Sliwinska 2007</gnm:SheetName>
     <gnm:SheetName gnm:Cols="16384" gnm:Rows="1048576">Jovtchev et al. 2007</gnm:SheetName>
@@ -61,7 +60,7 @@
     <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
       <gnm:Name>Certain</gnm:Name>
       <gnm:MaxCol>10</gnm:MaxCol>
-      <gnm:MaxRow>98</gnm:MaxRow>
+      <gnm:MaxRow>102</gnm:MaxRow>
       <gnm:Zoom>1</gnm:Zoom>
       <gnm:Names>
         <gnm:Name>
@@ -116,12 +115,12 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Verdana</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="91" endCol="1" endRow="98">
+        <gnm:StyleRegion startCol="1" startRow="91" endCol="1" endRow="102">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="1" startRow="99" endCol="1" endRow="1048575">
+        <gnm:StyleRegion startCol="1" startRow="103" endCol="1" endRow="1048575">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -191,17 +190,37 @@
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Verdana</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="91" endCol="8" endRow="95">
+        <gnm:StyleRegion startCol="8" startRow="91" endCol="8" endRow="111">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="8" startRow="96" endCol="15" endRow="1048575">
+        <gnm:StyleRegion startCol="8" startRow="112" endCol="15" endRow="1048575">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
         </gnm:StyleRegion>
-        <gnm:StyleRegion startCol="9" startRow="0" endCol="15" endRow="95">
+        <gnm:StyleRegion startCol="9" startRow="0" endCol="9" endRow="111">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="10" startRow="0" endCol="10" endRow="98">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="10" startRow="99" endCol="10" endRow="102">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="10" startRow="103" endCol="10" endRow="111">
+          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
+            <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
+          </gnm:Style>
+        </gnm:StyleRegion>
+        <gnm:StyleRegion startCol="11" startRow="0" endCol="15" endRow="111">
           <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
             <gnm:Font Unit="10" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Sans</gnm:Font>
           </gnm:Style>
@@ -224,15 +243,15 @@
       </gnm:Cols>
       <gnm:Rows DefaultSizePts="12.75">
         <gnm:RowInfo No="0" Unit="12.75" Count="91"/>
-        <gnm:RowInfo No="91" Unit="14.25" Count="8"/>
+        <gnm:RowInfo No="91" Unit="14.25" Count="12"/>
       </gnm:Rows>
-      <gnm:Selections CursorCol="0" CursorRow="91">
-        <gnm:Selection startCol="0" startRow="91" endCol="0" endRow="98"/>
+      <gnm:Selections CursorCol="2" CursorRow="1">
+        <gnm:Selection startCol="2" startRow="1" endCol="2" endRow="1"/>
       </gnm:Selections>
       <gnm:Cells>
         <gnm:Cell Row="0" Col="0" ValueType="60">Reference</gnm:Cell>
         <gnm:Cell Row="0" Col="1" ValueType="60">Taxon</gnm:Cell>
-        <gnm:Cell Row="0" Col="2" ValueType="60">TNRS_Species</gnm:Cell>
+        <gnm:Cell Row="0" Col="2" ValueType="60">Zanne_Species</gnm:Cell>
         <gnm:Cell Row="0" Col="3" ValueType="60">Upper leaf EI</gnm:Cell>
         <gnm:Cell Row="0" Col="4" ValueType="60">Lower leaf EI</gnm:Cell>
         <gnm:Cell Row="0" Col="5" ValueType="60">Leaf EI</gnm:Cell>
@@ -715,8 +734,20 @@
         <gnm:Cell Row="98" Col="0" ValueType="60">Zotschke_2007</gnm:Cell>
         <gnm:Cell Row="98" Col="1" ValueType="60">Arabidopsis thaliana columbia</gnm:Cell>
         <gnm:Cell Row="98" Col="7" ValueType="40">8.2170000000000005</gnm:Cell>
+        <gnm:Cell Row="99" Col="0" ValueType="60">Dolezel_2007</gnm:Cell>
+        <gnm:Cell Row="99" Col="1" ValueType="60">Pisum sativum</gnm:Cell>
+        <gnm:Cell Row="99" Col="10" ValueType="60">N</gnm:Cell>
+        <gnm:Cell Row="100" Col="0" ValueType="60">Dolezel_2007</gnm:Cell>
+        <gnm:Cell Row="100" Col="1" ValueType="60">Zea mays</gnm:Cell>
+        <gnm:Cell Row="100" Col="10" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="101" Col="0" ValueType="60">Dolezel_2007</gnm:Cell>
+        <gnm:Cell Row="101" Col="1" ValueType="60">Kochia scoparia</gnm:Cell>
+        <gnm:Cell Row="101" Col="10" ValueType="60">Y</gnm:Cell>
+        <gnm:Cell Row="102" Col="0" ValueType="60">Dolezel_2007</gnm:Cell>
+        <gnm:Cell Row="102" Col="1" ValueType="60">Senecio rowleyanus</gnm:Cell>
+        <gnm:Cell Row="102" Col="10" ValueType="60">Y</gnm:Cell>
       </gnm:Cells>
-      <gnm:SheetLayout TopLeft="A82">
+      <gnm:SheetLayout TopLeft="A92">
         <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="A2"/>
       </gnm:SheetLayout>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
@@ -1124,80 +1155,6 @@
         <gnm:Cell Row="6" Col="3" ValueType="40">5</gnm:Cell>
         <gnm:Cell Row="6" Col="4" ValueType="60">Y</gnm:Cell>
         <gnm:Cell Row="6" Col="5" ValueType="60">2, 4, and 8C</gnm:Cell>
-      </gnm:Cells>
-      <gnm:SheetLayout TopLeft="A1"/>
-      <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
-    </gnm:Sheet>
-    <gnm:Sheet DisplayFormulas="0" HideZero="0" HideGrid="0" HideColHeader="0" HideRowHeader="0" DisplayOutlines="1" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE" GridColor="0:0:0">
-      <gnm:Name>Dolezel et al. 2007</gnm:Name>
-      <gnm:MaxCol>16383</gnm:MaxCol>
-      <gnm:MaxRow>4</gnm:MaxRow>
-      <gnm:Zoom>1</gnm:Zoom>
-      <gnm:Names>
-        <gnm:Name>
-          <gnm:name>Print_Area</gnm:name>
-          <gnm:value>#REF!</gnm:value>
-          <gnm:position>A1</gnm:position>
-        </gnm:Name>
-        <gnm:Name>
-          <gnm:name>Sheet_Title</gnm:name>
-          <gnm:value>&quot;Dolezel et al. 2007&quot;</gnm:value>
-          <gnm:position>A1</gnm:position>
-        </gnm:Name>
-      </gnm:Names>
-      <gnm:PrintInformation>
-        <gnm:Margins>
-          <gnm:top Points="54" PrefUnit="mm"/>
-          <gnm:bottom Points="54" PrefUnit="mm"/>
-          <gnm:left Points="50.4" PrefUnit="mm"/>
-          <gnm:right Points="50.4" PrefUnit="mm"/>
-          <gnm:header Points="21.6" PrefUnit="mm"/>
-          <gnm:footer Points="21.6" PrefUnit="mm"/>
-        </gnm:Margins>
-        <gnm:Scale type="percentage" percentage="100"/>
-        <gnm:vcenter value="0"/>
-        <gnm:hcenter value="0"/>
-        <gnm:grid value="0"/>
-        <gnm:even_if_only_styles value="0"/>
-        <gnm:monochrome value="0"/>
-        <gnm:draft value="0"/>
-        <gnm:titles value="0"/>
-        <gnm:do_not_print value="0"/>
-        <gnm:print_range value="0"/>
-        <gnm:order>d_then_r</gnm:order>
-        <gnm:orientation>portrait</gnm:orientation>
-        <gnm:Header Left="" Middle="&amp;[TAB]" Right=""/>
-        <gnm:Footer Left="" Middle="Page &amp;[PAGE]" Right=""/>
-        <gnm:paper>na_letter</gnm:paper>
-      </gnm:PrintInformation>
-      <gnm:Styles>
-        <gnm:StyleRegion startCol="0" startRow="0" endCol="16383" endRow="1048575">
-          <gnm:Style HAlign="1" VAlign="2" WrapText="0" ShrinkToFit="0" Rotation="0" Shade="0" Indent="0" Locked="1" Hidden="0" Fore="0:0:0" Back="FFFF:FFFF:FFFF" PatternColor="0:0:0" Format="General">
-            <gnm:Font Unit="11" Bold="0" Italic="0" Underline="0" StrikeThrough="0" Script="0">Calibri</gnm:Font>
-          </gnm:Style>
-        </gnm:StyleRegion>
-      </gnm:Styles>
-      <gnm:Cols DefaultSizePts="48">
-        <gnm:ColInfo No="0" Unit="87.29"/>
-        <gnm:ColInfo No="1" Unit="47.25" Count="16383"/>
-      </gnm:Cols>
-      <gnm:Rows DefaultSizePts="15">
-        <gnm:RowInfo No="0" Unit="15" Count="5"/>
-      </gnm:Rows>
-      <gnm:Selections CursorCol="1" CursorRow="37">
-        <gnm:Selection startCol="1" startRow="37" endCol="1" endRow="37"/>
-      </gnm:Selections>
-      <gnm:Cells>
-        <gnm:Cell Row="0" Col="0" ValueType="60">Species</gnm:Cell>
-        <gnm:Cell Row="0" Col="1" ValueType="60">Endopolyploid</gnm:Cell>
-        <gnm:Cell Row="1" Col="0" ValueType="60">Pisum sativum</gnm:Cell>
-        <gnm:Cell Row="1" Col="1" ValueType="60">N</gnm:Cell>
-        <gnm:Cell Row="2" Col="0" ValueType="60">Zea mays</gnm:Cell>
-        <gnm:Cell Row="2" Col="1" ValueType="60">N</gnm:Cell>
-        <gnm:Cell Row="3" Col="0" ValueType="60">Kochia scoparia</gnm:Cell>
-        <gnm:Cell Row="3" Col="1" ValueType="60">2, 4, and 8C</gnm:Cell>
-        <gnm:Cell Row="4" Col="0" ValueType="60">Senecio rowleyanus</gnm:Cell>
-        <gnm:Cell Row="4" Col="1" ValueType="60">2, 4, 8, 16, 32, 64C</gnm:Cell>
       </gnm:Cells>
       <gnm:SheetLayout TopLeft="A1"/>
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
@@ -1885,5 +1842,5 @@
       <gnm:Solver ModelType="0" ProblemType="0" MaxTime="60" MaxIter="1000" NonNeg="1" Discr="0" AutoScale="0" ProgramR="0"/>
     </gnm:Sheet>
   </gnm:Sheets>
-  <gnm:UIData SelectedTab="3"/>
+  <gnm:UIData SelectedTab="2"/>
 </gnm:Workbook>
